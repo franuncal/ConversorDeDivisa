@@ -1,12 +1,4 @@
-
-//Funcion saludar usuario
-// function saludarUsuario() {
-//   const nombre = prompt("Ingrese su nombre por favor");
-//   alert("Bienvenido a la Casa de Cambio DIVISAS.INC " + nombre);
-// }
-// saludarUsuario();
-
-//Solicitar datos de usuario\
+//Solicitar datos de usuario
 function datosUsuario() {
   const cantidad = parseFloat(prompt("Ingrese la cantidad a convertir: "));
   const monedaOrigen = prompt(
